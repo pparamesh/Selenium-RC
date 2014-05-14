@@ -28,7 +28,7 @@ public class Duplication_Validation {
         final String URL1 = "http://be02.staging.customink.com/backend/account/login";
         final String browser = "*googlechrome C:\\Users\\Paramesh_p\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe";
         //final String browser = "*firefox";
-        //change browser
+        //change browser setting
         selenium = new DefaultSelenium ("localhost", 4444, browser, URL1);
         selenium.start();
         
