@@ -28,12 +28,14 @@ public class Duplication_Validation {
         final String URL1 = "http://be02.staging.customink.com/backend/account/login";
         final String browser = "*googlechrome C:\\Users\\Paramesh_p\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe";
         //final String browser = "*firefox";
+        //change browser
         selenium = new DefaultSelenium ("localhost", 4444, browser, URL1);
         selenium.start();
         
         selenium.open("/");
         selenium.windowMaximize();
         Thread.sleep(3000);
+        Thread.sleep(4000);
 
 
         //Entering credentials to access application
